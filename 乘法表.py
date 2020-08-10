@@ -1,4 +1,4 @@
-for i in range(1,10):
-    for j in range(1,i+1):
-           print('%sx%s=%s'%(j,i,i*j),end=' ')
-    print()
+for i in range(1,10):                           #循环来控制i；
+    for j in range(1,i+1):                      #用进一步的循环用i来控制j；
+           print('%sx%s=%s'%(j,i,i*j),end=' ')  #用乘法的格式来输出i和j之间的乘法关系，然后每次循环有一格空格来保持每列之间的距离；
+    print()                                     #用一行空格来替换重复的乘法比如（1*2=2，2*1=2）；
